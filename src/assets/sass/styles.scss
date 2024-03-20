@@ -3,11 +3,15 @@
 @import "config/colors.scss";
 
 @import "utilites/spacing.scss";
+@import "utilites/mixin-card.scss";
 
 @import "base/fonts.scss";
 @import "base/global.scss";
 @import "base/links.scss";
 @import "base/typography.scss";
+
+@import "components/components";
+@import "components/demo.scss";
 
 $background-color: rgb(255, 255, 255);
 body {
