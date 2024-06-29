@@ -13,7 +13,7 @@
 @import "components/components";
 @import "components/demo.scss";
 
-$background-color: rgb(255, 255, 255);
-body {
-    background-color: $background-color;
-}
+@import "pages/index.scss";
+@import "pages/single-page.scss";
+
+@import "hacks/add-product.scss"
